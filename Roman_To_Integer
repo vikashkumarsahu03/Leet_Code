@@ -34,3 +34,11 @@ class Solution {
         return total;
     }
 }
+public class Roman_to_Integer {
+    public static void main(String[] args){
+        Solution sol=new Solution1();
+        String s="XVI";
+        System.out.println(sol.romanToInt(s));
+
+    }
+}
